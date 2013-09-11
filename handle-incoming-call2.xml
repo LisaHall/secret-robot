@@ -1,9 +1,0 @@
-<?xml version=”1.0″ encoding=”UTF-8″?>
- <Response>
- <Gather action=”handle-user-input.php” numDigits=”1″>
-<Say voice=”woman” language=”en”>Hello. Welcome to the Pac 12 hotline! Type in your mascot, and I'll play your fight song. To forward your song to a friend, press #</Say>
- </Gather>
- <!– If user doesn’t input anything, prompt and try again. –>
- <Say>Sorry, I didn’t get your response.</Say>
- <Redirect>handle-incoming-call.xml</Redirect>
-</Response>
